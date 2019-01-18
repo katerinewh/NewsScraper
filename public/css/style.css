@@ -1,5 +1,5 @@
 #menu-bar{
-    background-color:#008080;
+    background-color:#1F2399;
   }
   #ms{
     color:white;
@@ -20,7 +20,7 @@
   }
   
   #imageHolder{
-    /* background-image: url("/public/images/savedArticles.png"); */
+    background-image: url("/images/savedArticles.png");
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;

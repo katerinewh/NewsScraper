@@ -1,6 +1,6 @@
 function saveEvent(){
     $(".table-striped").on("click",".save", function(){ // --!!!--> .save should be fixed because it gets clicked twice 
-    console.log("jjj");
+    console.log("saved");
       var currentRow=$(this).closest("tr");
       var col1 = currentRow.find("td:eq(0)").text();
       var col2 = currentRow.find("td:eq(1)").text();
