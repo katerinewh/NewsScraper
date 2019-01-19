@@ -7,7 +7,7 @@ function saveEvent(){
   
       $.ajax({
         method:"POST",
-        url:"/api/save",
+        url:"/save",
         data: { title:col1, summary:col2 }
       }).done(function(data){
   
